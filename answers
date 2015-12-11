@@ -1,0 +1,43 @@
+###
+question 1)
+class is a data structure that has data member and function member whci have many access ways (private or public)
+private members cant be accessed by user while public members can be accessed by user, instance of this data is called object 
+we use class to organize any large system
+
+###
+questin 2)
+data hiding in class: in private section we make data hidings as any data will be written cant be accessed from outside class except by
+methods of class
+abstraction of class: class that cant be instatntiate and its implemented as a class that have one or more abstract function so
+its a class which define an implelmentation and inherited by concrete classes (classes can be instantiated)
+encapsulation of class:packing of data and function in single component so it bulid a walll to protect code from corruption as it allows 
+selective hiding of properties so it construct facilities that bund data with methods or other functions operatind on data
+
+###
+question 3)
+object is an instance of class for example class is blueprint while object is house which bulit from blueprint we can have many
+houses with same floor plan but each have its own instance
+
+###
+question 5)
+function member is a public one which can be accessed by user while data member is a private one which cant be accessed by user except
+by class methods
+
+###
+question 6)
+constructor: is a special member function of a class that is excuted whenever we create new object of class and it have same name of class and doesnt have any return type at all 
+destructor: special member function thats excuted whenevr an object of class goes out of scope or the delete expression is applied 
+and it have same name of class with ~ and also no return nor taking parameters 
+
+###
+question 7)
+done as we made default constructor
+
+###
+question 8)default constructor is a constructor which all parameters are default values as it can be called without providing any arguments
+advantage: it helps us to initalize any object 
+
+###
+question 10)
+this : pointer refering to object calling current function,, this -> fname="nouran" 
+*this : is the object calling current function ,, this.fname="nouran"
